@@ -12,7 +12,9 @@
 		C51C1CBE1AED1E82009C4749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CBC1AED1E82009C4749 /* Main.storyboard */; };
 		C51C1CC01AED1E82009C4749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CBF1AED1E82009C4749 /* Images.xcassets */; };
 		C51C1CC31AED1E82009C4749 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CC11AED1E82009C4749 /* LaunchScreen.xib */; };
-		C51C1CCF1AED1E83009C4749 /* fizz_buzz_kata_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CCE1AED1E83009C4749 /* fizz_buzz_kata_iosTests.swift */; };
+		C51C1CCF1AED1E83009C4749 /* fizz_buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CCE1AED1E83009C4749 /* fizz_buzz.swift */; };
+		C51C1CD91AED20A1009C4749 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */; };
+		C51C1CDA1AED20A1009C4749 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,8 @@
 		C51C1CC21AED1E82009C4749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C51C1CC81AED1E83009C4749 /* fizz-buzz-kata-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fizz-buzz-kata-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51C1CCD1AED1E83009C4749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C51C1CCE1AED1E83009C4749 /* fizz_buzz_kata_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizz_buzz_kata_iosTests.swift; sourceTree = "<group>"; };
+		C51C1CCE1AED1E83009C4749 /* fizz_buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizz_buzz.swift; sourceTree = "<group>"; };
+		C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				C51C1CBF1AED1E82009C4749 /* Images.xcassets */,
 				C51C1CC11AED1E82009C4749 /* LaunchScreen.xib */,
 				C51C1CB61AED1E82009C4749 /* Supporting Files */,
+				C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */,
 			);
 			path = "fizz-buzz-kata-ios";
 			sourceTree = "<group>";
@@ -98,7 +102,7 @@
 		C51C1CCB1AED1E83009C4749 /* fizz-buzz-kata-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				C51C1CCE1AED1E83009C4749 /* fizz_buzz_kata_iosTests.swift */,
+				C51C1CCE1AED1E83009C4749 /* fizz_buzz.swift */,
 				C51C1CCC1AED1E83009C4749 /* Supporting Files */,
 			);
 			path = "fizz-buzz-kata-iosTests";
@@ -214,6 +218,7 @@
 			files = (
 				C51C1CBB1AED1E82009C4749 /* ViewController.swift in Sources */,
 				C51C1CB91AED1E82009C4749 /* AppDelegate.swift in Sources */,
+				C51C1CD91AED20A1009C4749 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C51C1CCF1AED1E83009C4749 /* fizz_buzz_kata_iosTests.swift in Sources */,
+				C51C1CCF1AED1E83009C4749 /* fizz_buzz.swift in Sources */,
+				C51C1CDA1AED20A1009C4749 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
