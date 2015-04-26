@@ -11,10 +11,16 @@
 		C51C1CBB1AED1E82009C4749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CBA1AED1E82009C4749 /* ViewController.swift */; };
 		C51C1CBE1AED1E82009C4749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CBC1AED1E82009C4749 /* Main.storyboard */; };
 		C51C1CC01AED1E82009C4749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CBF1AED1E82009C4749 /* Images.xcassets */; };
-		C51C1CC31AED1E82009C4749 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CC11AED1E82009C4749 /* LaunchScreen.xib */; };
 		C51C1CCF1AED1E83009C4749 /* fizz_buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CCE1AED1E83009C4749 /* fizz_buzz.swift */; };
 		C51C1CD91AED20A1009C4749 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */; };
 		C51C1CDA1AED20A1009C4749 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */; };
+		C5DE21231AED234B0079DB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CBA1AED1E82009C4749 /* ViewController.swift */; };
+		C5DE21241AED234B0079DB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CB81AED1E82009C4749 /* AppDelegate.swift */; };
+		C5DE21251AED234B0079DB0F /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */; };
+		C5DE21281AED234B0079DB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CBC1AED1E82009C4749 /* Main.storyboard */; };
+		C5DE212A1AED234B0079DB0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C1CBF1AED1E82009C4749 /* Images.xcassets */; };
+		C5DE21311AED23FC0079DB0F /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DE21301AED23FC0079DB0F /* calabash.framework */; };
+		C5DE21331AED24120079DB0F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DE21321AED24120079DB0F /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +40,14 @@
 		C51C1CBA1AED1E82009C4749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C51C1CBD1AED1E82009C4749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51C1CBF1AED1E82009C4749 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C51C1CC21AED1E82009C4749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C51C1CC81AED1E83009C4749 /* fizz-buzz-kata-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fizz-buzz-kata-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51C1CCD1AED1E83009C4749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C51C1CCE1AED1E83009C4749 /* fizz_buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizz_buzz.swift; sourceTree = "<group>"; };
 		C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		C5DE212E1AED234B0079DB0F /* fizz-buzz-kata-ios copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fizz-buzz-kata-ios copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DE212F1AED234B0079DB0F /* fizz-buzz-kata-ios copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "fizz-buzz-kata-ios copy-Info.plist"; path = "/Users/saiph/Documents/playground/fizz-buzz-kata-ios/fizz-buzz-kata-ios copy-Info.plist"; sourceTree = "<absolute>"; };
+		C5DE21301AED23FC0079DB0F /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+		C5DE21321AED24120079DB0F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +65,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5DE21261AED234B0079DB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DE21331AED24120079DB0F /* CFNetwork.framework in Frameworks */,
+				C5DE21311AED23FC0079DB0F /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C51C1CAA1AED1E82009C4749 = {
 			isa = PBXGroup;
 			children = (
+				C5DE21321AED24120079DB0F /* CFNetwork.framework */,
 				C51C1CB51AED1E82009C4749 /* fizz-buzz-kata-ios */,
 				C51C1CCB1AED1E83009C4749 /* fizz-buzz-kata-iosTests */,
 				C51C1CB41AED1E82009C4749 /* Products */,
+				C5DE212F1AED234B0079DB0F /* fizz-buzz-kata-ios copy-Info.plist */,
+				C5DE21301AED23FC0079DB0F /* calabash.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +94,7 @@
 			children = (
 				C51C1CB31AED1E82009C4749 /* fizz-buzz-kata-ios.app */,
 				C51C1CC81AED1E83009C4749 /* fizz-buzz-kata-iosTests.xctest */,
+				C5DE212E1AED234B0079DB0F /* fizz-buzz-kata-ios copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +106,6 @@
 				C51C1CBA1AED1E82009C4749 /* ViewController.swift */,
 				C51C1CBC1AED1E82009C4749 /* Main.storyboard */,
 				C51C1CBF1AED1E82009C4749 /* Images.xcassets */,
-				C51C1CC11AED1E82009C4749 /* LaunchScreen.xib */,
 				C51C1CB61AED1E82009C4749 /* Supporting Files */,
 				C51C1CD81AED20A1009C4749 /* FizzBuzz.swift */,
 			);
@@ -154,6 +175,23 @@
 			productReference = C51C1CC81AED1E83009C4749 /* fizz-buzz-kata-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C5DE21211AED234B0079DB0F /* fizz-buzz-kata-ios-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DE212B1AED234B0079DB0F /* Build configuration list for PBXNativeTarget "fizz-buzz-kata-ios-cal" */;
+			buildPhases = (
+				C5DE21221AED234B0079DB0F /* Sources */,
+				C5DE21261AED234B0079DB0F /* Frameworks */,
+				C5DE21271AED234B0079DB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fizz-buzz-kata-ios-cal";
+			productName = "fizz-buzz-kata-ios";
+			productReference = C5DE212E1AED234B0079DB0F /* fizz-buzz-kata-ios copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +225,7 @@
 			targets = (
 				C51C1CB21AED1E82009C4749 /* fizz-buzz-kata-ios */,
 				C51C1CC71AED1E83009C4749 /* fizz-buzz-kata-iosTests */,
+				C5DE21211AED234B0079DB0F /* fizz-buzz-kata-ios-cal */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51C1CBE1AED1E82009C4749 /* Main.storyboard in Resources */,
-				C51C1CC31AED1E82009C4749 /* LaunchScreen.xib in Resources */,
 				C51C1CC01AED1E82009C4749 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +244,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DE21271AED234B0079DB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DE21281AED234B0079DB0F /* Main.storyboard in Resources */,
+				C5DE212A1AED234B0079DB0F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +278,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5DE21221AED234B0079DB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DE21231AED234B0079DB0F /* ViewController.swift in Sources */,
+				C5DE21241AED234B0079DB0F /* AppDelegate.swift in Sources */,
+				C5DE21251AED234B0079DB0F /* FizzBuzz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -248,14 +305,6 @@
 				C51C1CBD1AED1E82009C4749 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C51C1CC11AED1E82009C4749 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C51C1CC21AED1E82009C4749 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,6 +447,44 @@
 			};
 			name = Release;
 		};
+		C5DE212C1AED234B0079DB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fizz-buzz-kata-ios copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "fizz-buzz-kata-ios copy";
+			};
+			name = Debug;
+		};
+		C5DE212D1AED234B0079DB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fizz-buzz-kata-ios copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "fizz-buzz-kata-ios copy";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -417,6 +504,7 @@
 				C51C1CD41AED1E83009C4749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C51C1CD51AED1E83009C4749 /* Build configuration list for PBXNativeTarget "fizz-buzz-kata-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +513,16 @@
 				C51C1CD71AED1E83009C4749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DE212B1AED234B0079DB0F /* Build configuration list for PBXNativeTarget "fizz-buzz-kata-ios-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DE212C1AED234B0079DB0F /* Debug */,
+				C5DE212D1AED234B0079DB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
