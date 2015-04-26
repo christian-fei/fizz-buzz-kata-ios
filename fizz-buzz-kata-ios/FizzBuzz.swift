@@ -10,7 +10,10 @@ import Foundation
 
 class FizzBuzz {
     
-    func evaluate(Number: Int) -> String {
-        return "0"
+    func evaluate(number: Int) -> String {
+        if number == 3 {
+            return "Fizz"
+        }
+        return String(number)
     }
 }

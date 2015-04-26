@@ -9,11 +9,17 @@
 import UIKit
 import XCTest
 
-class fizz_buzz: XCTestCase {
+class FizzBuzzTest: XCTestCase {
     
-    func testExample() {
+    func testSimpleNumber() {
         let fizzBuzz = FizzBuzz()
         XCTAssertEqual("0", fizzBuzz.evaluate(0))
+        XCTAssertEqual("1", fizzBuzz.evaluate(1))
+    }
+    
+    func testFizzNumber() {
+        let fizzBuzz = FizzBuzz()
+        XCTAssertEqual("Fizz", fizzBuzz.evaluate(3))
     }
     
 }
